@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css" integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Css/styles.css" type="text/css"/>
+</head>
+<body>
+    
+<div class="LeftSideMenuContainer">
+    <div class="divCompanyLogo">
+       <span class="spCompLogo"><i class="ri-global-line"></i></span>
+       <span class="spCompTitle">Organization Name</span>
+    </div>
+    <div class="divMenuContainer">
+
+        <ul>
+            <li><a href="#"><span class="spIcon"><i class="ri-home-4-line"></i></span><span class="spText">Home</span></a></li>
+            <li><a href="#"><span class="spIcon"><i class="ri-profile-line"></i></span><span class="spText">Profile</span></a></li>
+            <li><a href="#"><span class="spIcon"><i class="ri-database-line"></i></span><span class="spText">Branches</span></a></li>
+            <li><a href="#"><span class="spIcon"><i class="ri-lightbulb-flash-line"></i></span><span class="spText">Energy</span></a></li>
+            <li><a href="#"><span class="spIcon"><i class="ri-secure-payment-line"></i></span><span class="spText">Security</span></a></li>
+            <li><a href="#"><span class="spIcon"><i class="ri-calendar-event-line"></i></span><span class="spText">Events</span></a></li>
+            <li><a href="#"><span class="spIcon"><i class="ri-service-line"></i></span><span class="spText">Services</span></a></li>
+            <li><a href="#"><span class="spIcon"><i class="ri-settings-4-line"></i></span><span class="spText">Settings</span></a></li>
+            <li><a href="#"><span class="spIcon"><i class="ri-smartphone-line"></i></span><span class="spText">Contact Us</span></a></li>
+        </ul>
+
+
+    </div>
+
+</div>
+
+<script>
+
+let _compLog =document.querySelector('.divCompanyLogo');
+let _leftMenuBlock=document.querySelector('.LeftSideMenuContainer');
+
+
+_compLog.onclick=function(){
+    _leftMenuBlock.classList.toggle('menushowhide');
+}
+
+
+</script>
+
+</body>
+</html>
